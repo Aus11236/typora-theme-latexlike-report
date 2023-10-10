@@ -4,5 +4,4 @@ Welcome to my Typora theme. This theme has been adapted from antoher one on the 
 
 The fonts are slightly different than LaTeX and formatting has been adapted to more modern standards, better integrated with Markdown. Hope you enjoy!
 
-![preview](./report/preview.png)
-
+![](C:\Users\Ethan\Downloads\report\Case.png)

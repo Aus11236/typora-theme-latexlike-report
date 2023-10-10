@@ -415,7 +415,7 @@ a {
 	color: #285e8e;
 	white-space: pre-wrap;
 	counter-increment: h2toc;
-	content: counter(h2toc) "  ";
+	/*content: counter(h2toc) "  ";*/
 }
 
 .md-toc-h2 .md-toc-inner {
@@ -426,7 +426,7 @@ a {
 	color: #285e8e;
 	white-space: pre-wrap;
 	counter-increment: h3toc;
-	content: counter(h2toc) ". " counter(h3toc) "  ";
+	/*content: counter(h2toc) ". " counter(h3toc) "  ";*/
 }
 
 .md-toc-h3 .md-toc-inner {
@@ -437,7 +437,7 @@ a {
 	color: #285e8e;
 	white-space: pre-wrap;
 	counter-increment: h4toc;
-	content: counter(h2toc) ". " counter(h3toc) ". " counter(h4toc) "  ";
+	/*content: counter(h2toc) ". " counter(h3toc) ". " counter(h4toc) "  ";*/
 }
 
 .md-toc-h4 .md-toc-inner {
@@ -448,7 +448,7 @@ a {
 	color: #285e8e;
 	white-space: pre-wrap;
 	counter-increment: h5toc;
-	content: counter(h2toc) ". " counter(h3toc) ". " counter(h4toc) ". " counter(h5toc) "  ";
+	/*content: counter(h2toc) ". " counter(h3toc) ". " counter(h4toc) ". " counter(h5toc) "  ";*/
 }
 
 .md-toc-h5 .md-toc-inner {
@@ -459,8 +459,8 @@ a {
 	color: #285e8e;
 	white-space: pre-wrap;
 	counter-increment: h6toc;
-	content: counter(h2toc) ". " counter(h3toc) ". " counter(h4toc) ". " counter(h5toc) ". "
-		counter(h6toc) "  ";
+	/*content: counter(h2toc) ". " counter(h3toc) ". " counter(h4toc) ". " counter(h5toc) ". "
+		counter(h6toc) "  ";*/
 }
 
 .md-toc-h6 .md-toc-inner {
@@ -623,34 +623,34 @@ code {
 
 .outline-h1>.outline-item>.outline-label:before {
 	counter-increment: toch1;
-	content: counter(toch1) " ";
+	/*content: counter(toch1) " ";*/
 }
 
 .outline-h2>.outline-item>.outline-label:before {
 	counter-increment: toch2;
-	content: counter(toch1) "." counter(toch2) " ";
+	/*content: counter(toch1) "." counter(toch2) " ";*/
 }
 
 .outline-h3>.outline-item>.outline-label:before {
 	counter-increment: toch3;
-	content: counter(toch1) "." counter(toch2) "." counter(toch3) " ";
+	/*content: counter(toch1) "." counter(toch2) "." counter(toch3) " ";*/
 }
 
 .outline-h4>.outline-item>.outline-label:before {
 	counter-increment: toch4;
-	content: counter(toch1) "." counter(toch2) "." counter(toch3) "." counter(toch4) " ";
+	/*content: counter(toch1) "." counter(toch2) "." counter(toch3) "." counter(toch4) " ";*/
 }
 
 .outline-h5>.outline-item>.outline-label:before {
 	counter-increment: toch5;
-	content: counter(toch1) "." counter(toch2) "." counter(toch3) "." counter(toch4) "."
-		counter(toch5) " ";
+	/*content: counter(toch1) "." counter(toch2) "." counter(toch3) "." counter(toch4) "."
+		counter(toch5) " ";*/
 }
 
 .outline-h6>.outline-item>.outline-label:before {
 	counter-increment: toch6;
-	content: counter(toch1) "." counter(toch2) "." counter(toch3) "." counter(toch4) "."
-		counter(toch5) "." counter(toch6) " ";
+	/*content: counter(toch1) "." counter(toch2) "." counter(toch3) "." counter(toch4) "."
+		counter(toch5) "." counter(toch6) " ";*/
 }
 
 .outline-h4,
@@ -828,7 +828,7 @@ table th {
 
 /***************** 这里定义公式的样式 ****************/
 
-/* .MathJax_Display {
+ .MathJax_Display {
     font-size: 0.9rem;
     margin-top: 0.5rem;
     margin-bottom: 0;
@@ -842,11 +842,11 @@ p.mathjax-block,
 .mathjax-block>.code-tooltip {
     bottom: 5px;
     box-shadow: none;
-} */
+} 
 
 /***************** 这里定义节编号的样式 ****************/
 
-#write {
+/*#write {
 	counter-reset: h1;
 }
 
@@ -868,13 +868,13 @@ p.mathjax-block,
 
 #write h5 {
 	counter-reset: h6;
-}
+}*/
 
 /** put counter result into headings */
-#write h1:before {
+/*#write h1:before {
 	white-space: pre-wrap;
 	counter-increment: h1;
-	/* content: counter(h1) "   "; */
+	/* content: counter(h1) "   "; 
 }
 
 #write h2:before {
@@ -908,7 +908,7 @@ p.mathjax-block,
 }
 
 /** focus on heading */
-#write>h1.md-focus:before,
+/*#write>h1.md-focus:before,
 #write>h2.md-focus:before,
 #write>h3.md-focus:before,
 #write>h4.md-focus:before,
@@ -926,8 +926,8 @@ p.mathjax-block,
     padding-right: inherit;
     vertical-align: inherit;
     font-weight: inherit;
-    line-height: inherit; */
-}
+    line-height: inherit; 
+}*/
 
 /***************** 这里定义打印或者导出PDF的样式 ****************/
 
